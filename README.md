@@ -29,7 +29,7 @@ pagecounteradd.js，客户端增加浏览量js文件
 
 pagecounterget.js，客户端获取浏览量js文件
 
-## 数据库
+## 数据库（拷贝执行即可）
 
 -- phpMyAdmin SQL Dump
 -- version 4.6.6deb5
