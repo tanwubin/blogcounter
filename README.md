@@ -16,25 +16,17 @@ blogcounter原理如下：
 Ajax+PHP，用户访问post页面时，通过ajax向服务端发起POST请求，服务端接受到请求后，
 刷新后台数据库中的访问数据。
 
-|
-|---counteradd.php
-|
-|---counterget.php
-|
-|---index.html
-|
-|---page.html
-|
-|---pagecounteradd.js
-|
-|---pagecounterget.js
-
-目录结构如上图，说明如下：
+目录结构说明如下：
 counteradd.php，服务端程序，用于向数据库中刷新浏览量
+
 counterget.php，服务端程序，用于从数据库中获取浏览量
+
 index.html，模拟博客首页，展示获取博客浏览量
+
 page.html，模拟查看博文，增加浏览量
+
 pagecounteradd.js，客户端增加浏览量js文件
+
 pagecounterget.js，客户端获取浏览量js文件
 
 ## 数据库
