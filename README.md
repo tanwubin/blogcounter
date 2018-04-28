@@ -35,4 +35,40 @@ pagecounterget.js，客户端获取浏览量js文件
 
 ## 如何运用到自己的博客？
 
-ToDo，待完善
+1、服务端部署
+
+1.1 导入数据库
+
+1.2 counteradd.php和counterget.php两个文件部署到服务端，并根据实际情况修改数据库连接的用户名和密码
+
+$userName = "root";
+
+$passWord = "root";
+
+服务端部署OK后，可以通过浏览器打开URL确认是否部署成功
+
+2、静态网页部署（以jekyll为例，其他也是类似的）
+
+2.1 default.html导入jquery库
+
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
+2.1 首页部署
+
+将pagecounterget.js拷贝到index.html，如下图，url根据自身情况适配
+
+![](blogcounter-index-1.png)
+
+2.2 博文页部署
+
+将pagecounteradd.js拷贝到post.html,如下图，url根据自身情况适配
+
+![](blogcounter-post-1.png)
+
+2.3 其他单页部署
+
+方法与首页和博文页面完全相同
+
+## 统计效果
+
+![](blogcounter-mysql.png)
